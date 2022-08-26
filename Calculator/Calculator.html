@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calculator.css">
+
+    <title>CALCULATOR</title>
+
+</head>
+<body>
+    <div class="container">
+        
+        <div class="calculator">
+            <input type="text" placeholder="000000000000" name="screen" id="screen" readonly>
+            <table>
+            <tr>
+               <td> <button onclick="Clear()">C</button></td>
+               <td> <button onclick="Delete()">DEL </button></td>
+               <td> <button onclick="display('%')">%</button></td>
+               <td> <button onclick="display('/')">/</button></td>
+               
+            </tr>
+            </table>
+            <table>
+            <tr>
+                <td>  <button onclick="display('7')">7</button></td>
+                <td>  <button onclick="display('8')">8</button></td>
+                <td>  <button onclick="display('9')">9</button></td>
+                <td>  <button onclick="display('*')">*</button></td>
+             </tr>
+             <tr>
+                <td>  <button onclick="display('4')">4</button></td>
+                <td>  <button onclick="display('5')">5</button></td>
+                <td>  <button onclick="display('6')">6</button></td>
+                <td>  <button onclick="display('-')">-</button></td>
+             </tr>
+             <tr>
+                <td> <button onclick="display('1')">1</button></td>
+                <td> <button onclick="display('2')">2</button></td>
+                <td> <button onclick="display('3')">3</button></td>
+                <td> <button onclick="display('+')">+</button></td>
+             </tr>
+             <tr>
+                <td> <button onclick="display('00')">00</button></td>
+                <td> <button onclick="display('0')">0</button></td>
+                <td> <button onclick="display('.')">.</button></td>
+                <td> <button onclick="display('=')">=</button></td>
+             </tr>
+        </table>
+        </div>
+    </div>
+</body>
+<script src="Calculator.js"></script>
+</html>
